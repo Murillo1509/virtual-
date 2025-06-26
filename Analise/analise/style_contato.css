@@ -1,0 +1,63 @@
+body 
+        
+{  
+    background-image: url(Virtual.jpg);
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.header a:hover {
+    color: red;
+}
+
+.main-content {
+    margin-top: 50px;
+}
+
+.main-content h1 {
+    font-size: 50px;
+    color: red;
+}
+
+.main-content h1 span {
+    color: white;
+}
+
+.main-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.car-image img {
+    margin-top: 30px;
+    width: 300px;
+}
+.login-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .login-button:hover {
+    background-color: #45a049;
+  }

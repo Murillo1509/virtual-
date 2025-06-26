@@ -1,0 +1,68 @@
+   body 
+      {  
+      
+          background-color: black;
+          color: rgb(255, 255, 255);
+          font-family: Arial, sans-serif;
+          text-align: center;
+      }
+      .header {
+          display: flex;
+          justify-content: space-between;
+          padding: 20px;
+      }
+
+      .header a {
+          color: rgb(222, 238, 5);
+          text-decoration: none;
+          margin: 0 15px;
+          font-size: 18px;
+      }
+
+      .header a:hover {
+          color: red;
+      }
+
+      .main-content {
+          margin-top: 50px;
+      }
+      
+
+      .main-content p {
+          font-size: 18px;
+          line-height: 1.6;
+      }
+
+      .car-image img {
+          margin-top: 30px;
+          width: 300px;
+      }
+      .login-button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+    
+      .login-button:hover {
+        background-color: #45a049;
+      }
+      .car-item {
+    margin: 60px;
+    display: inline-block;
+    text-align: center;
+    background: rgb(194, 216, 0);
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.car-item img {
+    width: 100%;
+    border-radius: 20px;
+    height: 200px;}
